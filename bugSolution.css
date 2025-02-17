@@ -1,0 +1,1 @@
+To fix these issues, ensure consistent units within `calc()` expressions and use parentheses to control the order of operations. Always carefully check the calculations. For example, change `width: calc(100% + 10%);` to `width: calc(100% + 10px);` and correctly group expressions like this: `margin: calc((100vw - 800px) / 2);` instead of an incorrectly grouped expression.
